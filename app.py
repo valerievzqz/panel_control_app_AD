@@ -3,8 +3,8 @@ import pandas as pd
 import plotly.express as px
 
 car_data=pd.read_csv("vehicles_us.csv")
-st.header("")
-hist_check=st.checkbox("create histogram")
+st.header("vehicles in the US - Graphs")
+hist_check=st.checkbox("create histogram") #it can algo be a st.button
 if hist_check:
     st.write("creating histogram of a data set about cars in the US")
     
