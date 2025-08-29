@@ -15,6 +15,6 @@ disp_check=st.checkbox("create dispersion plot")
 if disp_check:
     st.write("creating dispersion plot of a data set about cars in the US")
     fig2=px.scatter(car_data,x="odometer",y="price") #dispersion
-    st.plotly_chart(fig,user_container_width=True)
+    st.plotly_chart(fig2,user_container_width=True)
 
 
